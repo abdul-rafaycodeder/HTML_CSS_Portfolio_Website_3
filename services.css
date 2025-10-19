@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: #e9e9e9;
+}
+
+/* Header */
+
+.services-header{
+    background: #36454F;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.services-header h1{
+    color: white;
+    font-size: 40px;
+}
+
+.services-header h1 span{
+    color: #00d1d1;
+}
+
+/* Main Services Section */
+
+.services-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px 80px;
+}
+
+.services-left{
+    max-width: 45%;
+}
+
+.services-left h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.services-left p{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.contact-btn{
+    display: inline-block;
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.contact-btn:hover{
+    background: #00d1d1;
+    color: black;
+}
+
+/* Service Boxes */
+
+.services-right{
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.service-box{
+    background: white;
+    padding: 20px 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.service-box h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.service-box p{
+    font-size: 15px;
+    line-height: 22px;
+}
+
+/* Footer */
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
